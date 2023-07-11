@@ -1,0 +1,36 @@
+.container .title {
+    color: white;
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 2rem 0 1rem;
+
+}
+
+.title .query-text {
+    color: white;
+}
+
+.movies-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 3rem;
+
+}
+
+.movie-card {
+    flex-basis: calc(20% - 2rem);
+    margin: 0 1rem 2rem;
+}
+
+.movies-container div svg {
+    color: #cc9900;
+}
+
+.movies-container h2 {
+    margin-bottom: 1px;
+}
+
+.movies-container p {
+    margin-bottom: 4px;
+}

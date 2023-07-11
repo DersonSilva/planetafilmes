@@ -1,0 +1,103 @@
+.movie-details-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.movie-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.movie-info {
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.movie-description {
+    text-align: center;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    white-space: break-spaces;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.trailer-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+    position: relative;
+    padding-bottom: 56.25%;
+}
+
+.trailer-video {
+    width: 100%;
+    height: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.trailer-iframe {
+    width: 100%;
+    height: 50%;
+}
+
+
+.cast-container {
+    margin-top: 20px;
+}
+
+.cast-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.cast-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 200px;
+    text-align: center;
+}
+
+.actor-image {
+    width: 100%;
+    height: auto;
+}
+
+.actor-name {
+    margin-top: 5px;
+    text-align: center;
+}
+
+.cast-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+
+.large-image {
+    width: 300px;
+    /* Ajuste o tamanho conforme necessário */
+    height: auto;
+}
+
+.title-elenco {
+    font-size: 30px;
+    padding: 20px;
+}
